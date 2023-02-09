@@ -1,0 +1,66 @@
+body{
+    margin-top: 25px !important;
+    background-image: url(../img/bg1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    color: #ffffff;
+}
+
+p a, td a, #bodyLink{
+    color: #ffffff !important;
+    text-decoration: underline !important;
+}
+
+nav{
+    border: none;
+    size: auto;
+}
+
+th, td{
+    width: 20%;
+}
+
+input, textarea{
+    background-color: rgba(0,0,0,.56);
+    border: 1px solid #000000;
+}
+
+.table{
+    vertical-align: middle;
+    width: 100%;
+}
+
+.jumbotron{
+    background-color: transparent;
+    margin-bottom: 0;
+    padding-bottom: 24px;
+}
+
+.navbar{
+   background-color: #9A3A91;
+   background: #9A3A91;
+   border-color: #9A3A91;
+}
+
+.nav.navbar-nav li a {
+    color: #ffffff;
+}
+
+.active a{
+    background-color: #692161 !important;
+    color: #ffffff !important;
+}
+
+.progress {
+    background: #ffffff;
+    border: 0px !important;
+    border-radius: 0px !important;
+    height: 5px !important;
+}
+.progress-bar-custom {
+    background-image: none;
+    background: #692161;
+    background-color: #692161;
+}
