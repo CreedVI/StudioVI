@@ -1,4 +1,4 @@
-var app = angular.module('StudioVI_View');
+var app = angular.module('StudioVI_View', ['ngRoute']);
 
 app.config(['$locationProvider', function($locationProvider) {
     $locationProvider.html5Mode(false).hashPrefix('');
